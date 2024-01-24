@@ -1,0 +1,23 @@
+.form-div {
+
+    background: #0ebbbb;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+   
+}
+
+input {
+
+    height: 30px;
+    width: 300px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+.invalid-password {
+    border: 2px solid red;
+}
