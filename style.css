@@ -1,23 +1,78 @@
-.form-div {
+*{
+    margin: 0;
 
+}
+
+.form-div {
     background: #0ebbbb;
     width: 400px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 700px;
     justify-content: center;
-   
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 15px;
+    
 }
 
 input {
-
     height: 30px;
     width: 300px;
     margin: 7px;
     border-radius: 5px;
+    border: 2px solid grey
+}
+
+input[type=text]:focus {
+    background-color: lightgray;
+    border: 3px solid #555;
+    outline: none;
+}
+input[type=password]:focus {
+    background-color: lightgray; 
+ 
+}
+
+input[type=email]:focus {
+    background-color: lightgray;
+    border: 3px solid #555;
+    outline: none;
 }
 
 .invalid-password {
-    border: 2px solid red;
+    border: 4px solid red;
+    outline: red;
+}
+
+.submit-div {
+ display: flex;
+ align-items: center;
+justify-content: center;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    font-size: larger;
+    width: 150px;
+   background-color: rgb(92, 20, 236);
+    border: 2px solid black;
+}
+
+input[type=submit]:disabled,
+button:disabled {
+    background-color: antiquewhite;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
 }

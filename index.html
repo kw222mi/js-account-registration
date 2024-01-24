@@ -12,35 +12,39 @@
 
 <body>
     <main>
-        <h1>Account Registration</h1>
+       
         <div class="form-div">
         <form>
             <div class="form-group">
+                <h1>Account Registration</h1>
             <label >Name:</label><br>
-            <input type="text" id="name" name="name" required /><br>
+            <input type="text" id="name" name="name" placeholder="Name" required /><br>
             </div>
 
             <div class="form-group">
             <label>User name:</label><br>
-            <input type="text" id="userName" name="userName" required /><br>
+            <input type="text" id="userName" name="userName" placeholder="Username" required /><br>
             </div>
 
             <div class="form-group">
             <label>Email:</label><br>
-            <input type="email" id="email" name="email" required /><br>
+            <input type="email" id="email" name="email" placeholder="Email" required /><br>
             </div>
 
             <div class="form-group">
             <label>Password:</label><br>
-            <input type="password" id="password" name="password" required /><br>
+            <input type="password" id="password" name="password" placeholder="Password" required /><br>
             </div>
 
             <div class="form-group">
             <label>Confirm password:</label><br>
-            <input type="password" id="confirm" name="confirm" required /><br>
+            <input type="password" id="confirm" name="confirm" placeholder="Confirm Password" required /><br>
             </div>
 
+            <div class="submit-div">
             <input type="submit" id="submitButton" value="Send" disabled />
+            </div>
+
         </form>
 
         <div class="message-div"></div>
